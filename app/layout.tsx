@@ -35,7 +35,7 @@ export default function RootLayout({
       <body
         className={`${inter.className} bg-gray-900 text-gray-100 min-h-screen`}
       >
-        <header className="border-b border-gray-800 bg-gray-900/80 backdrop-blur-sm sticky top-0 z-50">
+        <header className="border-b from-blue-500 to-green-600 border-gray-800 bg-gray-900/80 backdrop-blur-sm sticky top-0 z-50">
           <div className="container mx-auto px-4 py-4">
             <div className="flex items-center justify-between">
               <div className="flex items-center space-x-3">
@@ -74,7 +74,7 @@ export default function RootLayout({
             </div>
           </div>
         </header>
-        <main className="conainer mx-auto px-4 py-8">{children}</main>
+        <main className="container mx-auto px-4 py-8">{children}</main>
         <footer className="border-t border-gray-800 mt-12 py-6">
           <div className="container mx-auto px-4 text-center text-gray-500 text-sm">
             <p>Built by Uthso | Securing the web, one report at a time</p>
